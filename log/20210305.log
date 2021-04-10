@@ -1,0 +1,342 @@
+[2021-03-05 09:14:56,655][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:14:56,659][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050914563853', '$.CIOP_TOKEN=ae6b19bbde6cb55b10f00b2e80a61449']
+[2021-03-05 09:14:56,721][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:14:57,817][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【0】---->>预期结果:【0】
+[2021-03-05 09:14:57,838][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【00000】---->>预期结果:【00000】
+[2021-03-05 09:14:57,858][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【success】---->>预期结果:【success】
+[2021-03-05 09:14:57,877][JSONLibrary.py 157][INFO]: $.result.IN_MODE_CODE的实际结果:【5】---->>预期结果:【5】
+[2021-03-05 09:14:57,893][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:14:57,893][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:14:57,913][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:14:57,914][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050914578848', '$.CIOP_TOKEN=9f75faf74c5de636456c2dbd8ca7896c']
+[2021-03-05 09:14:57,987][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:14:58,036][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【1】---->>预期结果:【1】
+[2021-03-05 09:14:58,055][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:14:58,076][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:14:58,091][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:14:58,091][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:14:58,112][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:14:58,113][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050914586309', '$.CIOP_TOKEN=4e3813492a9daff6300934bf551d8f52']
+[2021-03-05 09:14:58,180][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:14:58,226][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【3】---->>预期结果:【3】
+[2021-03-05 09:14:58,244][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:14:58,263][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:14:58,279][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:14:58,281][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:14:58,298][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:14:58,299][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050914587200', '$.CIOP_TOKEN=187e058819cc9497b084c4cd22cd1769']
+[2021-03-05 09:14:58,365][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:14:58,409][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【4】---->>预期结果:【4】
+[2021-03-05 09:14:58,426][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:14:58,447][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:14:58,461][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:14:58,462][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:14:58,476][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:14:58,477][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050914584334', '$.CIOP_TOKEN=b9fdffa69a201f446346a6b23b34380d']
+[2021-03-05 09:14:58,538][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:14:58,579][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【101】---->>预期结果:【101】
+[2021-03-05 09:14:58,623][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:14:58,645][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:14:58,661][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:14:58,662][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:14:58,677][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:14:58,678][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050914588230', '$.CIOP_TOKEN=840f1ecc61e24e183216a7a9b4be4239']
+[2021-03-05 09:14:58,737][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:14:58,775][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【4】---->>预期结果:【4】
+[2021-03-05 09:14:58,795][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:14:58,819][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:14:58,834][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:14:58,835][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:14:58,847][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:14:58,848][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050914588439', '$.CIOP_TOKEN=9eb440e2828f624b292032ad9bf59db9']
+[2021-03-05 09:14:58,927][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:14:59,693][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【0】---->>预期结果:【0】
+[2021-03-05 09:14:59,716][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【00000】---->>预期结果:【00000】
+[2021-03-05 09:14:59,735][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【success】---->>预期结果:【success】
+[2021-03-05 09:14:59,750][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:14:59,750][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:31:07,903][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:31:07,905][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050931074013', '$.CIOP_TOKEN=1d4d81c6e3c13cba37747a215791f118']
+[2021-03-05 09:31:07,967][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:31:08,884][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【0】---->>预期结果:【0】
+[2021-03-05 09:31:08,907][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【00000】---->>预期结果:【00000】
+[2021-03-05 09:31:08,926][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【success】---->>预期结果:【success】
+[2021-03-05 09:31:08,952][JSONLibrary.py 157][INFO]: $.result.IN_MODE_CODE的实际结果:【5】---->>预期结果:【5】
+[2021-03-05 09:31:08,957][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:31:08,957][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:31:08,975][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:31:08,976][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050931087938', '$.CIOP_TOKEN=edbe170295a2e4b2dbe333fee5a0ff77']
+[2021-03-05 09:31:09,036][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:31:09,100][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【1】---->>预期结果:【1】
+[2021-03-05 09:31:09,121][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:31:09,142][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:31:09,157][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:31:09,158][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:31:09,176][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:31:09,177][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050931096388', '$.CIOP_TOKEN=226c68906e07316a7c386409f06efba9']
+[2021-03-05 09:31:09,248][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:31:09,292][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【3】---->>预期结果:【3】
+[2021-03-05 09:31:09,311][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:31:09,337][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:31:09,344][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:31:09,345][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:31:09,360][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:31:09,361][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050931098506', '$.CIOP_TOKEN=91a0daa58f0eded710957602701eff2d']
+[2021-03-05 09:31:09,428][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:31:09,469][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【4】---->>预期结果:【4】
+[2021-03-05 09:31:09,494][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:31:09,513][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:31:09,529][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:31:09,530][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:31:09,545][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:31:09,546][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050931096156', '$.CIOP_TOKEN=a6cc4c9031647c761b4ebca1b3f36b25']
+[2021-03-05 09:31:09,622][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:31:09,659][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【101】---->>预期结果:【101】
+[2021-03-05 09:31:09,702][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:31:09,721][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:31:09,736][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:31:09,737][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:31:09,750][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:31:09,755][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050931095054', '$.CIOP_TOKEN=3d225c3b693801e7c51635fb19194559']
+[2021-03-05 09:31:09,821][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:31:09,872][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【4】---->>预期结果:【4】
+[2021-03-05 09:31:09,890][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:31:09,911][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:31:09,925][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:31:09,926][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:31:09,944][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:31:09,945][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050931099051', '$.CIOP_TOKEN=7d3aa74fb68cf04b868aa73c9b1a7149']
+[2021-03-05 09:31:10,027][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:31:10,828][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【0】---->>预期结果:【0】
+[2021-03-05 09:31:10,849][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【00000】---->>预期结果:【00000】
+[2021-03-05 09:31:10,870][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【success】---->>预期结果:【success】
+[2021-03-05 09:31:10,885][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:31:10,886][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:33:13,236][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:33:13,237][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050933132517', '$.CIOP_TOKEN=f51ac7b6b6f9700edb21d2a5916b4256']
+[2021-03-05 09:33:13,311][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:33:14,130][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【0】---->>预期结果:【0】
+[2021-03-05 09:33:14,151][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【00000】---->>预期结果:【00000】
+[2021-03-05 09:33:14,172][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【success】---->>预期结果:【success】
+[2021-03-05 09:33:14,192][JSONLibrary.py 157][INFO]: $.result.IN_MODE_CODE的实际结果:【5】---->>预期结果:【5】
+[2021-03-05 09:33:14,209][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:33:14,213][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:33:14,229][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:33:14,235][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050933145123', '$.CIOP_TOKEN=7c9699ea478991ea9d069d0585e9e255']
+[2021-03-05 09:33:14,311][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:33:14,368][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【1】---->>预期结果:【1】
+[2021-03-05 09:33:14,387][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:33:14,412][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:33:14,417][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:33:14,418][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:33:14,436][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:33:14,437][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050933149169', '$.CIOP_TOKEN=44d4a69a1603378c8874a9e53a910057']
+[2021-03-05 09:33:14,507][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:33:14,548][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【3】---->>预期结果:【3】
+[2021-03-05 09:33:14,573][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:33:14,595][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:33:14,613][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:33:14,614][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:33:14,628][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:33:14,634][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050933141852', '$.CIOP_TOKEN=80eb81040feeba890550c066607e17e7']
+[2021-03-05 09:33:14,704][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:33:14,746][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【4】---->>预期结果:【4】
+[2021-03-05 09:33:14,768][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:33:14,787][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:33:14,801][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:33:14,802][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:33:14,821][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:33:14,822][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050933149145', '$.CIOP_TOKEN=9f02f4861fca1a6b30e7186b3a07115d']
+[2021-03-05 09:33:14,887][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:33:14,933][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【101】---->>预期结果:【101】
+[2021-03-05 09:33:14,975][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:33:14,994][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:33:15,011][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:33:15,012][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:33:15,027][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:33:15,033][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050933158615', '$.CIOP_TOKEN=e730b8461b29593bea6d88b19eac3dab']
+[2021-03-05 09:33:15,097][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:33:15,154][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【4】---->>预期结果:【4】
+[2021-03-05 09:33:15,176][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:33:15,196][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:33:15,213][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:33:15,214][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:33:15,229][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:33:15,235][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050933158371', '$.CIOP_TOKEN=4433f781f031623d2dd8b2deae85e828']
+[2021-03-05 09:33:15,346][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:33:16,084][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【0】---->>预期结果:【0】
+[2021-03-05 09:33:16,103][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【00000】---->>预期结果:【00000】
+[2021-03-05 09:33:16,123][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【success】---->>预期结果:【success】
+[2021-03-05 09:33:16,138][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:33:16,138][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:36:36,862][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:36:36,868][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050936361971', '$.CIOP_TOKEN=30962af5d5f31a60ba3c5e9461e51eb7']
+[2021-03-05 09:36:36,934][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:36:37,766][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【0】---->>预期结果:【0】
+[2021-03-05 09:36:37,785][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【00000】---->>预期结果:【00000】
+[2021-03-05 09:36:37,805][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【success】---->>预期结果:【success】
+[2021-03-05 09:36:37,823][JSONLibrary.py 157][INFO]: $.result.IN_MODE_CODE的实际结果:【5】---->>预期结果:【5】
+[2021-03-05 09:36:37,828][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:36:37,828][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:36:37,847][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:36:37,854][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050936375396', '$.CIOP_TOKEN=9fdc76ff35664f3dce3cc2d933477fb4']
+[2021-03-05 09:36:37,925][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:36:37,971][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【1】---->>预期结果:【1】
+[2021-03-05 09:36:37,990][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:36:38,008][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:36:38,024][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:36:38,025][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:36:38,041][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:36:38,042][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050936381411', '$.CIOP_TOKEN=e3efdbe49988479f20ede0db60c996e6']
+[2021-03-05 09:36:38,128][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:36:38,184][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【3】---->>预期结果:【3】
+[2021-03-05 09:36:38,206][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:36:38,226][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:36:38,231][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:36:38,234][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:36:38,248][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:36:38,256][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050936387131', '$.CIOP_TOKEN=6c585426e4524cdb2ca8f1a5d97b48f4']
+[2021-03-05 09:36:38,328][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:36:38,377][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【4】---->>预期结果:【4】
+[2021-03-05 09:36:38,409][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:36:38,433][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:36:38,448][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:36:38,450][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:36:38,462][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:36:38,470][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050936384486', '$.CIOP_TOKEN=88ab4978a9a416a095223fc4f3ce3183']
+[2021-03-05 09:36:38,534][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:36:38,585][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【101】---->>预期结果:【101】
+[2021-03-05 09:36:38,623][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:36:38,644][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:36:38,660][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:36:38,660][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:36:38,674][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:36:38,675][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050936386914', '$.CIOP_TOKEN=3971e0711adfac81c311aa1a2a492705']
+[2021-03-05 09:36:38,744][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:36:38,785][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【4】---->>预期结果:【4】
+[2021-03-05 09:36:38,809][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:36:38,829][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 09:36:38,843][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:36:38,844][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 09:36:38,862][test_submitOffersOrder.py 26][INFO]: *************** 开始执行用例 ***************
+[2021-03-05 09:36:38,870][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103050936381809', '$.CIOP_TOKEN=2fa7228de52eb29b697a134e21455e34']
+[2021-03-05 09:36:38,960][test_submitOffersOrder.py 41][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 09:36:39,697][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【0】---->>预期结果:【0】
+[2021-03-05 09:36:39,725][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【00000】---->>预期结果:【00000】
+[2021-03-05 09:36:39,746][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【success】---->>预期结果:【success】
+[2021-03-05 09:36:39,762][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 09:36:39,763][test_submitOffersOrder.py 58][INFO]: *************** 结束执行用例 ***************
+[2021-03-05 10:01:22,659][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-05 10:01:22,659][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103051001224035', '$.CIOP_TOKEN=5679e0b471705426bf4e5888937c2347']
+[2021-03-05 10:01:22,729][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 10:01:23,610][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【0】---->>预期结果:【0】
+[2021-03-05 10:01:23,632][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【00000】---->>预期结果:【00000】
+[2021-03-05 10:01:23,658][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【success】---->>预期结果:【success】
+[2021-03-05 10:01:23,681][JSONLibrary.py 157][INFO]: $.result.IN_MODE_CODE的实际结果:【5】---->>预期结果:【5】
+[2021-03-05 10:01:23,688][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 10:01:23,688][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-05 10:01:23,709][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-05 10:01:23,710][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103051001238964', '$.CIOP_TOKEN=2a16616eda4d0ba563e0f7834d4c5572']
+[2021-03-05 10:01:23,785][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 10:01:23,836][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【1】---->>预期结果:【1】
+[2021-03-05 10:01:23,857][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:01:23,878][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:01:23,884][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 10:01:23,885][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-05 10:01:23,899][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-05 10:01:23,908][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103051001239040', '$.CIOP_TOKEN=dd440d4c18f8d24fceb1e8828b498b9c']
+[2021-03-05 10:01:23,978][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 10:01:24,024][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【3】---->>预期结果:【3】
+[2021-03-05 10:01:24,044][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:01:24,067][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:01:24,074][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 10:01:24,074][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-05 10:01:24,092][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-05 10:01:24,093][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103051001241515', '$.CIOP_TOKEN=a1181eecffe9a055c14221a114bc0133']
+[2021-03-05 10:01:24,157][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 10:01:24,199][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【4】---->>预期结果:【4】
+[2021-03-05 10:01:24,219][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:01:24,241][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:01:24,257][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 10:01:24,257][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-05 10:01:24,275][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-05 10:01:24,276][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103051001246190', '$.CIOP_TOKEN=e78956f5e6f8fef32e78dcb35d968e98']
+[2021-03-05 10:01:24,345][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 10:01:24,384][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【101】---->>预期结果:【101】
+[2021-03-05 10:01:24,425][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:01:24,443][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:01:24,449][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 10:01:24,453][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-05 10:01:24,476][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-05 10:01:24,476][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103051001249966', '$.CIOP_TOKEN=9f06920b63d2937a51fe33a36c5c5b26']
+[2021-03-05 10:01:24,538][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 10:01:24,583][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【4】---->>预期结果:【4】
+[2021-03-05 10:01:24,607][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:01:24,627][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:01:24,641][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 10:01:24,641][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-05 10:01:24,660][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-05 10:01:24,662][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103051001249195', '$.CIOP_TOKEN=b1c14786d1f46745a4904878aef311b4']
+[2021-03-05 10:01:24,746][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 10:01:25,550][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【0】---->>预期结果:【0】
+[2021-03-05 10:01:25,569][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【00000】---->>预期结果:【00000】
+[2021-03-05 10:01:25,592][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【success】---->>预期结果:【success】
+[2021-03-05 10:01:25,596][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 10:01:25,600][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-05 10:31:56,785][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-05 10:31:56,786][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103051031568440', '$.CIOP_TOKEN=d80442013c85f916f0a9869dbff64482']
+[2021-03-05 10:31:56,857][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 10:31:57,743][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【0】---->>预期结果:【0】
+[2021-03-05 10:31:57,764][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【00000】---->>预期结果:【00000】
+[2021-03-05 10:31:57,785][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【success】---->>预期结果:【success】
+[2021-03-05 10:31:57,807][JSONLibrary.py 157][INFO]: $.result.IN_MODE_CODE的实际结果:【5】---->>预期结果:【5】
+[2021-03-05 10:31:57,823][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 10:31:57,828][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-05 10:31:57,852][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-05 10:31:57,853][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103051031574609', '$.CIOP_TOKEN=a64250e89c635edb58f0ddc597a960a6']
+[2021-03-05 10:31:57,931][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 10:31:57,975][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【1】---->>预期结果:【1】
+[2021-03-05 10:31:57,994][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:31:58,014][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:31:58,031][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 10:31:58,041][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-05 10:31:58,090][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-05 10:31:58,098][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103051031589643', '$.CIOP_TOKEN=2c46c8fed4188876429822763dbe0f75']
+[2021-03-05 10:31:58,173][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 10:31:58,219][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【3】---->>预期结果:【3】
+[2021-03-05 10:31:58,243][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:31:58,264][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:31:58,281][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 10:31:58,281][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-05 10:31:58,298][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-05 10:31:58,300][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103051031583596', '$.CIOP_TOKEN=28a2268a5edead7d371e2e63e4a69067']
+[2021-03-05 10:31:58,363][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 10:31:58,411][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【4】---->>预期结果:【4】
+[2021-03-05 10:31:58,448][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:31:58,481][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:31:58,502][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 10:31:58,502][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-05 10:31:58,519][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-05 10:31:58,532][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103051031583997', '$.CIOP_TOKEN=34ba936c134ce3d321612a1aaa66d518']
+[2021-03-05 10:31:58,607][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 10:31:58,654][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【101】---->>预期结果:【101】
+[2021-03-05 10:31:58,696][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:31:58,718][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:31:58,725][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 10:31:58,725][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-05 10:31:58,738][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-05 10:31:58,750][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103051031584882', '$.CIOP_TOKEN=cc74b8aa73dfcdc555c41ba85c569b04']
+[2021-03-05 10:31:58,829][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 10:31:58,877][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【4】---->>预期结果:【4】
+[2021-03-05 10:31:58,897][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:31:58,919][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-05 10:31:58,925][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 10:31:58,925][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-05 10:31:58,937][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-05 10:31:58,946][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103051031587861', '$.CIOP_TOKEN=90736bedfe3b3dedd0817f6809fd9d55']
+[2021-03-05 10:31:59,034][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-05 10:31:59,875][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【0】---->>预期结果:【0】
+[2021-03-05 10:31:59,898][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【00000】---->>预期结果:【00000】
+[2021-03-05 10:31:59,918][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【success】---->>预期结果:【success】
+[2021-03-05 10:31:59,934][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-05 10:31:59,934][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 

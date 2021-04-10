@@ -1,0 +1,51 @@
+[ {
+  "uid" : "c00ea95c0055e50a",
+  "name" : "VerID:WAP1.0.0.1|ReqID:13456.0|Author:chenguosen|CaseTitle:04.业务线、合同不变，增加用户_用户、账号创建成功",
+  "time" : {
+    "start" : 1618015475478,
+    "stop" : 1618015478178,
+    "duration" : 2700
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22f08893c8ca1069",
+  "name" : "VerID:WAP1.0.0.1|ReqID:13456.0|Author:chenguosen|CaseTitle:05.用户、业务线、合同都存在_创建失败",
+  "time" : {
+    "start" : 1618015478194,
+    "stop" : 1618015478985,
+    "duration" : 791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea4c576ecd2bb29e",
+  "name" : "VerID:WAP1.0.0.1|ReqID:13456.0|Author:chenguosen|CaseTitle:03.增加业务线16+合同ID_账本、账本科目创建成功",
+  "time" : {
+    "start" : 1618015472246,
+    "stop" : 1618015475466,
+    "duration" : 3220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e63623e696d65d37",
+  "name" : "VerID:WAP1.0.0.1|ReqID:13456.0|Author:chenguosen|CaseTitle:01.账户信息、对应基础账本科目都不存在_用户、客户、账户、账本、账本科目创建成功",
+  "time" : {
+    "start" : 1618015462389,
+    "stop" : 1618015469389,
+    "duration" : 7000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7462c09698edca8",
+  "name" : "VerID:WAP1.0.0.1|ReqID:13456.0|Author:chenguosen|CaseTitle:02.账户信息、对应基础账本科目都不存在，contractId为空_业务与账本科目关系、合同专用账本不创建，其他信息创建成功",
+  "time" : {
+    "start" : 1618015469404,
+    "stop" : 1618015472234,
+    "duration" : 2830
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

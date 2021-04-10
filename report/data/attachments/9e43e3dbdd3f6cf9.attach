@@ -1,0 +1,1 @@
+SELECT count(*) FROM BAC_USER WHERE USERID ='900002'的实际结果:【1】---->>预期结果:【1】

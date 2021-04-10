@@ -1,0 +1,8 @@
+INFO     log:test_OpenAccount.py:31 ***********************  开始执行用例 *********************** 
+INFO     log:Bac_Reqx.py:26 重置节点列表：['$.pubInfo.reqTime=20210410084438']
+INFO     log:test_OpenAccount.py:47 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210410084438"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900004","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200004"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"100000004","customName":"OCE"},"invalidTime":"","busiTypeList":"13","creditWoffResume":1,"acctName":"陈国森4"}},"sign": "MCwCFDu6zvDzxirYf+DhWHRx8d/hqtbcAhRAG2zIxp6VwdKof4lolVQDKHnTOw=="}
+INFO     log:Result_assert.py:26 $.message的实际结果:【成功】---->>预期结果:【成功】
+INFO     log:Result_assert.py:26 $.status的实际结果:【200】---->>预期结果:【200】
+INFO     log:Result_assert.py:26 $.data.rspParam.pubInfo.returnCode的实际结果:【710088】---->>预期结果:【710088】
+INFO     log:Result_assert.py:26 $.data.rspParam.pubInfo.returnMsg的实际结果:【账户及账本科目已开通，不能重复开通相同账本科目，建议更换合同编码。】---->>预期结果:【账户及账本科目已开通，不能重复开通相同账本科目，建议更换合同编码。】
+INFO     log:test_OpenAccount.py:75 ***********************  结束执行用例 ***********************

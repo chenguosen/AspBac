@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "chenguosen",
+    "children" : [ {
+      "name" : "14848-MainThread",
+      "children" : [ {
+        "name" : "VerID:WAP1.0.0.1|ReqID:13456.0|Author:chenguosen|CaseTitle:05.用户、业务线、合同都存在_创建失败",
+        "uid" : "22f08893c8ca1069",
+        "parentUid" : "1f6cac48d904a005457a60e3a898db16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618015478194,
+          "stop" : 1618015478985,
+          "duration" : 791
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "13456.0", "'$.message=成功|$.status=200|$.data.rspParam.pubInfo.returnCode=710088|$.data.rspParam.pubInfo.returnMsg=账户及账本科目已开通，不能重复开通相同账本科目，建议更换合同编码。'", "'chenguosen'", "'05.用户、业务线、合同都存在_创建失败'", "''", "'{\"Content-Type\": \"application/json\",'Authorization': 'auth'}'", "''", "'$.openAcctInfo.userInfo.bindMobile=15818640854|$.openAcctInfo.userInfo.userId=900004|$.openAcctInfo.contractInfo.contractId=9000000000000200004|$.openAcctInfo.acctName=陈国森4|$.openAcctInfo.customInfo.identityNumber=100000004|$.openAcctInfo.busiTypeList=13'", "'WAP1.0.0.1'" ]
+      }, {
+        "name" : "VerID:WAP1.0.0.1|ReqID:13456.0|Author:chenguosen|CaseTitle:02.账户信息、对应基础账本科目都不存在，contractId为空_业务与账本科目关系、合同专用账本不创建，其他信息创建成功",
+        "uid" : "c7462c09698edca8",
+        "parentUid" : "1f6cac48d904a005457a60e3a898db16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618015469404,
+          "stop" : 1618015472234,
+          "duration" : 2830
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "13456.0", "'$.message=成功|$.status=200|$.data.rspParam.pubInfo.returnCode=0|$.data.rspParam.pubInfo.returnMsg=成功'", "'chenguosen'", "'02.账户信息、对应基础账本科目都不存在，contractId为空_业务与账本科目关系、合同专用账本不创建，其他信息创建成功'", "'1|SELECT count(*) FROM BAC_USER WHERE USERID ='900003'||0|SELECT count(*) FROM BAC_BUSINESS_ACCTSUBJECT_REL WHERE CONTRACTID ='9000000000000200003'||2|SELECT count(*) FROM BAC_ACCOUNT_SUBJECT WHERE ACCTSUBJECTID IN (SELECT ACCTSUBJECTID FROM BAC_ACCOUNT_SUBJECT_DATA WHERE ACCTID IN (SELECT ACCTID FROM BAC_ACCOUNT WHERE userid='900003'))'", "'{\"Content-Type\": \"application/json\",'Authorization': 'auth'}'", "''", "'$.openAcctInfo.userInfo.bindMobile=15818640853|$.openAcctInfo.userInfo.userId=900003|$.openAcctInfo.contractInfo.contractId=None|$.openAcctInfo.acctName=陈国森3|$.openAcctInfo.customInfo.identityNumber=100000003'", "'WAP1.0.0.1'" ]
+      }, {
+        "name" : "VerID:WAP1.0.0.1|ReqID:13456.0|Author:chenguosen|CaseTitle:03.增加业务线16+合同ID_账本、账本科目创建成功",
+        "uid" : "ea4c576ecd2bb29e",
+        "parentUid" : "1f6cac48d904a005457a60e3a898db16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618015472246,
+          "stop" : 1618015475466,
+          "duration" : 3220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "13456.0", "'$.message=成功|$.status=200|$.data.rspParam.pubInfo.returnCode=0|$.data.rspParam.pubInfo.returnMsg=成功'", "'chenguosen'", "'03.增加业务线16+合同ID_账本、账本科目创建成功'", "'1|SELECT count(*) FROM BAC_USER WHERE USERID ='900004'||1|SELECT count(*) FROM BAC_BUSINESS_ACCTSUBJECT_REL WHERE CONTRACTID ='9000000000000200005'||6|SELECT count(*) FROM BAC_ACCOUNT_SUBJECT WHERE ACCTSUBJECTID IN (SELECT ACCTSUBJECTID FROM BAC_ACCOUNT_SUBJECT_DATA WHERE ACCTID IN (SELECT ACCTID FROM BAC_ACCOUNT WHERE userid='900004'))'", "'{\"Content-Type\": \"application/json\",'Authorization': 'auth'}'", "''", "'$.openAcctInfo.userInfo.bindMobile=15818640854|$.openAcctInfo.userInfo.userId=900004|$.openAcctInfo.contractInfo.contractId=9000000000000200005|$.openAcctInfo.acctName=陈国森4|$.openAcctInfo.customInfo.identityNumber=100000005|$.openAcctInfo.busiTypeList=16'", "'WAP1.0.0.1'" ]
+      }, {
+        "name" : "VerID:WAP1.0.0.1|ReqID:13456.0|Author:chenguosen|CaseTitle:01.账户信息、对应基础账本科目都不存在_用户、客户、账户、账本、账本科目创建成功",
+        "uid" : "e63623e696d65d37",
+        "parentUid" : "1f6cac48d904a005457a60e3a898db16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618015462389,
+          "stop" : 1618015469389,
+          "duration" : 7000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "13456.0", "'$.message=成功|$.status=200|$.data.rspParam.pubInfo.returnCode=0|$.data.rspParam.pubInfo.returnMsg=成功'", "'chenguosen'", "'01.账户信息、对应基础账本科目都不存在_用户、客户、账户、账本、账本科目创建成功'", "'1|SELECT count(*) FROM BAC_USER WHERE USERID ='900002'||1|SELECT count(*) FROM BAC_BUSINESS_ACCTSUBJECT_REL WHERE CONTRACTID ='9000000000000200002'||4|SELECT count(*) FROM BAC_ACCOUNT_SUBJECT WHERE ACCTSUBJECTID IN (SELECT ACCTSUBJECTID FROM BAC_ACCOUNT_SUBJECT_DATA WHERE ACCTID IN (SELECT ACCTID FROM BAC_ACCOUNT WHERE userid='900002'))'", "'{\"Content-Type\": \"application/json\",'Authorization': 'auth'}'", "'BAC_custom_idEntityNumber_100000002|SELECT customId,customName,customType,identityNumber FROM BAC_CUSTOM WHERE CUSTOMID IN (SELECT CUSTOMID FROM BAC_USER WHERE USERID ='900002')||BAC_user_userId_900002|SELECT acctStatus,TO_NUMBER(TO_DATE(createTime) - TO_DATE('1970-01-01 8:0:0', 'YYYY-MM-DD HH24:MI:SS')) * 86400000 AS createTime,customId,innerUserId,userEmail,userId,userMobile,userName,userSource,userType FROM BAC_USER WHERE USERID ='900002''", "'$.openAcctInfo.userInfo.bindMobile=15818640852|$.openAcctInfo.userInfo.userId=900002|$.openAcctInfo.contractInfo.contractId=9000000000000200002|$.openAcctInfo.acctName=陈国森2|$.openAcctInfo.customInfo.identityNumber=100000002'", "'WAP1.0.0.1'" ]
+      }, {
+        "name" : "VerID:WAP1.0.0.1|ReqID:13456.0|Author:chenguosen|CaseTitle:04.业务线、合同不变，增加用户_用户、账号创建成功",
+        "uid" : "c00ea95c0055e50a",
+        "parentUid" : "1f6cac48d904a005457a60e3a898db16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618015475478,
+          "stop" : 1618015478178,
+          "duration" : 2700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "13456.0", "'$.message=成功|$.status=200|$.data.rspParam.pubInfo.returnCode=0|$.data.rspParam.pubInfo.returnMsg=成功'", "'chenguosen'", "'04.业务线、合同不变，增加用户_用户、账号创建成功'", "'1|SELECT count(*) FROM BAC_CUSTOM WHERE CUSTOMID IN (SELECT CUSTOMID FROM BAC_USER WHERE USERID ='900006')||1|SELECT count(*) FROM BAC_ACCOUNT WHERE userid='900006'||2|SELECT count(*) FROM BAC_ACCOUNT_SUBJECT WHERE ACCTSUBJECTID IN (SELECT ACCTSUBJECTID FROM BAC_ACCOUNT_SUBJECT_DATA WHERE ACCTID IN (SELECT ACCTID FROM BAC_ACCOUNT WHERE userid='900006')) AND ACCTSUBJECTID NOT IN (1999900001,2999900001)'", "'{\"Content-Type\": \"application/json\",'Authorization': 'auth'}'", "''", "'$.openAcctInfo.userInfo.bindMobile=15818640854|$.openAcctInfo.userInfo.userId=900006|$.openAcctInfo.contractInfo.contractId=9000000000000200004|$.openAcctInfo.acctName=陈国森6|$.openAcctInfo.customInfo.identityNumber=100000004|$.openAcctInfo.busiTypeList=13'", "'WAP1.0.0.1'" ]
+      } ],
+      "uid" : "1f6cac48d904a005457a60e3a898db16"
+    } ],
+    "uid" : "aa7733dad24545daeef4b8121a572f01"
+  } ]
+}

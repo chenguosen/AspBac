@@ -1,0 +1,53 @@
+[2021-03-10 09:09:42,011][test_OpenAccount.py 61][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-10 09:09:42,016][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210310090942']
+[2021-03-10 09:09:42,865][test_OpenAccount.py 77][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210310090942"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640852","userId":"900000","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200001"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森"}},"sign": "MCwCFCilDJksmF/GQkoYlzn8YzHLidpdAhRTewZ2vAfI89YN6Kvf1Lun4aKJqg=="}
+[2021-03-10 09:11:13,823][test_OpenAccount.py 61][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-10 09:11:13,828][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210310091113']
+[2021-03-10 09:11:14,462][test_OpenAccount.py 77][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210310091113"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640852","userId":"900000","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200001"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森"}},"sign": "MC0CFQCDE4O1a07ozJDAmj/OJfnybTaQRwIUbW7pSyRResIxsD4fmfX44nw3gxU="}
+[2021-03-10 09:12:00,504][test_OpenAccount.py 61][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-10 09:12:00,505][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210310091200']
+[2021-03-10 09:12:01,097][test_OpenAccount.py 77][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210310091200"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640852","userId":"900000","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200001"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森"}},"sign": "MC4CFQCF+pUflDs00UdFQ7HN/EJzZdQouAIVAIXBv86n1XR3fb9hd7+8aVsZK8ko"}
+[2021-03-10 09:12:01,542][Response_assert.py 18][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-10 09:12:01,560][Response_assert.py 18][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-10 09:12:01,589][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【710088】---->>预期结果:【710088】
+[2021-03-10 09:12:01,613][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【账户及账本科目已开通，不能重复开通相同账本科目，建议更换合同编码。】---->>预期结果:【账户及账本科目已开通，不能重复开通相同账本科目，建议更换合同编码。】
+[2021-03-10 09:16:50,856][test_OpenAccount.py 61][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-10 09:16:50,857][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210310091650']
+[2021-03-10 09:16:51,403][test_OpenAccount.py 77][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210310091650"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640852","userId":"900000","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200001"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森"}},"sign": "MCwCFFsjerVO2RVo0sFIFXiimGo2A5R/AhRxMLT/o+11erewADnBdoYoIw/K5g=="}
+[2021-03-10 09:16:52,061][Response_assert.py 18][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-10 09:16:52,084][Response_assert.py 18][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-10 09:16:52,105][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【710088】---->>预期结果:【710088】
+[2021-03-10 09:16:52,127][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【账户及账本科目已开通，不能重复开通相同账本科目，建议更换合同编码。】---->>预期结果:【账户及账本科目已开通，不能重复开通相同账本科目，建议更换合同编码。】
+[2021-03-10 09:25:37,268][test_OpenAccount.py 61][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-10 09:25:37,269][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210310092537']
+[2021-03-10 09:25:37,811][test_OpenAccount.py 77][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210310092537"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640852","userId":"900000","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200001"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森"}},"sign": "MC4CFQCJShVkK0TFFljUrNs7caSuklPzZAIVAIZBYdJcsEDOg67aC2P6at8R5XGp"}
+[2021-03-10 09:25:44,780][Response_assert.py 18][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-10 09:25:44,805][Response_assert.py 18][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-10 09:25:44,826][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【710088】---->>预期结果:【710088】
+[2021-03-10 09:25:44,847][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【账户及账本科目已开通，不能重复开通相同账本科目，建议更换合同编码。】---->>预期结果:【账户及账本科目已开通，不能重复开通相同账本科目，建议更换合同编码。】
+[2021-03-10 09:29:52,591][test_OpenAccount.py 61][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-10 09:29:52,593][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210310092952']
+[2021-03-10 09:29:53,119][test_OpenAccount.py 77][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210310092952"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640852","userId":"900000","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200001"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森"}},"sign": "MC0CFFPMdODlpfkm8term12JcK292xqmAhUAihvKbXDucAXO5JyW/Pe4S5kmJ2k="}
+[2021-03-10 09:29:53,685][Response_assert.py 18][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-10 09:29:53,699][Response_assert.py 18][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-10 09:29:53,716][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【710088】---->>预期结果:【710088】
+[2021-03-10 09:29:53,734][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【账户及账本科目已开通，不能重复开通相同账本科目，建议更换合同编码。】---->>预期结果:【账户及账本科目已开通，不能重复开通相同账本科目，建议更换合同编码。】
+[2021-03-10 09:36:56,799][test_OpenAccount.py 61][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-10 09:36:56,800][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210310093656']
+[2021-03-10 09:36:57,339][test_OpenAccount.py 77][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210310093656"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640852","userId":"900000","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200001"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森"}},"sign": "MC0CFQCGq2IM49XIDH9hRkWhVgjSjNzdvwIUQxky4b0MFOkNWZzwfzxFsUYnXCU="}
+[2021-03-10 09:36:58,093][Response_assert.py 18][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-10 09:36:58,112][Response_assert.py 18][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-10 09:36:58,136][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【710088】---->>预期结果:【710088】
+[2021-03-10 09:36:58,159][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【账户及账本科目已开通，不能重复开通相同账本科目，建议更换合同编码。】---->>预期结果:【账户及账本科目已开通，不能重复开通相同账本科目，建议更换合同编码。】
+[2021-03-10 09:38:54,914][test_OpenAccount.py 61][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-10 09:38:54,914][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210310093854']
+[2021-03-10 09:38:55,450][test_OpenAccount.py 77][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210310093854"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640853","userId":"900001","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFA3GIoE+/FzT1TtYXzDnhS6v8FVjAhR/ik4vDTVx7tYHwV8qXVQPzsuiiA=="}
+[2021-03-10 09:38:56,615][Response_assert.py 18][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-10 09:38:56,652][Response_assert.py 18][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-10 09:51:32,256][test_OpenAccount.py 61][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-10 09:51:32,271][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210310095132']
+[2021-03-10 09:51:32,789][test_OpenAccount.py 77][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210310095132"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640853","userId":"900001","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFBqtl7ig149I9Qxtl2boqrr75a91AhR3qzImIhcWm3o4NuCttWCBhskYgA=="}
+[2021-03-10 09:51:37,121][Response_assert.py 18][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-10 09:51:37,135][Response_assert.py 18][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-10 09:51:37,168][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【710088】---->>预期结果:【710088】
+[2021-03-10 09:51:37,189][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【账户及账本科目已开通，不能重复开通相同账本科目，建议更换合同编码。】---->>预期结果:【账户及账本科目已开通，不能重复开通相同账本科目，建议更换合同编码。】

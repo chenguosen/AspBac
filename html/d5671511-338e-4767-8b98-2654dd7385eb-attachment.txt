@@ -1,0 +1,11 @@
+INFO     log:test_OpenAccount.py:31 ***********************  开始执行用例 *********************** 
+INFO     log:Bac_Reqx.py:26 重置节点列表：['$.pubInfo.reqTime=20210410084432']
+INFO     log:test_OpenAccount.py:47 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210410084432"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900004","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200005"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"100000005","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森4"}},"sign": "MC0CFQCQedqrAEu2Q0LI0KylizQ3/sqN2QIUYGuC12INmdkf6swZ+gzgYq1MVio="}
+INFO     log:Result_assert.py:26 $.message的实际结果:【成功】---->>预期结果:【成功】
+INFO     log:Result_assert.py:26 $.status的实际结果:【200】---->>预期结果:【200】
+INFO     log:Result_assert.py:26 $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+INFO     log:Result_assert.py:26 $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+INFO     log:Result_assert.py:42 数据库断言实际结果:【1】---->>预期结果:【1】
+INFO     log:Result_assert.py:42 数据库断言实际结果:【1】---->>预期结果:【1】
+INFO     log:Result_assert.py:42 数据库断言实际结果:【6】---->>预期结果:【6】
+INFO     log:test_OpenAccount.py:75 ***********************  结束执行用例 ***********************

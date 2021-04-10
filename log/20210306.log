@@ -1,0 +1,118 @@
+[2021-03-06 18:05:11,883][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 18:05:11,890][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103061805113882', '$.CIOP_TOKEN=f7521f02ac87cd3ecd7782f076fcc16e']
+[2021-03-06 18:05:11,998][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-06 18:05:55,268][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【0】---->>预期结果:【0】
+[2021-03-06 18:05:55,288][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【00000】---->>预期结果:【00000】
+[2021-03-06 18:05:55,313][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【success】---->>预期结果:【success】
+[2021-03-06 18:05:55,334][JSONLibrary.py 157][INFO]: $.result.IN_MODE_CODE的实际结果:【5】---->>预期结果:【5】
+[2021-03-06 18:05:55,487][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-06 18:05:55,487][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-06 18:05:55,506][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 18:05:55,508][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103061805552680', '$.CIOP_TOKEN=eebdf1b2568d5dcec6bb15bf9131c8b1']
+[2021-03-06 18:05:55,663][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-06 18:05:55,745][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【1】---->>预期结果:【1】
+[2021-03-06 18:05:55,777][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-06 18:05:55,803][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-06 18:05:55,914][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-06 18:05:55,915][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-06 18:05:55,953][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 18:05:55,954][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103061805555142', '$.CIOP_TOKEN=4a12a8b51785a1f16e022b8fed62174c']
+[2021-03-06 18:05:56,046][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-06 18:05:56,124][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【3】---->>预期结果:【3】
+[2021-03-06 18:05:56,148][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-06 18:05:56,192][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-06 18:05:56,305][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-06 18:05:56,306][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-06 18:05:56,323][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 18:05:56,324][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103061805563173', '$.CIOP_TOKEN=9a2bc346bb9efa5f8de3109d7c69ab44']
+[2021-03-06 18:05:56,404][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-06 18:05:56,487][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【4】---->>预期结果:【4】
+[2021-03-06 18:05:56,512][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-06 18:05:56,531][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-06 18:05:56,730][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-06 18:05:56,731][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-06 18:05:56,744][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 18:05:56,752][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103061805566715', '$.CIOP_TOKEN=57749fec6859a78f09a7ed8ae5ddc1d3']
+[2021-03-06 18:05:56,837][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-06 18:05:56,920][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【101】---->>预期结果:【101】
+[2021-03-06 18:05:56,977][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-06 18:05:57,000][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-06 18:05:57,144][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-06 18:05:57,144][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-06 18:05:57,155][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 18:05:57,156][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103061805571835', '$.CIOP_TOKEN=2c3d495f38a6a08d544c29a07ce14e44']
+[2021-03-06 18:05:57,226][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-06 18:05:57,303][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【4】---->>预期结果:【4】
+[2021-03-06 18:05:57,323][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【】---->>预期结果:【】
+[2021-03-06 18:05:57,365][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【】---->>预期结果:【】
+[2021-03-06 18:05:57,509][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-06 18:05:57,510][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-06 18:05:57,529][test_submitOffersOrder.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 18:05:57,536][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.CIOP_RANDNUM=2103061805576205', '$.CIOP_TOKEN=80b1a974b9bc8a716eda9548e98b64ec']
+[2021-03-06 18:05:57,626][test_submitOffersOrder.py 42][INFO]: 请求URL: http://10.12.8.200:58083/bnhi/adPlatformAction/submitOffersOrder.service
+[2021-03-06 18:05:58,500][JSONLibrary.py 157][INFO]: $.CIOP_CODE的实际结果:【0】---->>预期结果:【0】
+[2021-03-06 18:05:58,519][JSONLibrary.py 157][INFO]: $.resCode的实际结果:【00000】---->>预期结果:【00000】
+[2021-03-06 18:05:58,540][JSONLibrary.py 157][INFO]: $.resMsg的实际结果:【success】---->>预期结果:【success】
+[2021-03-06 18:05:58,671][bnhi_Reqx.py 33][INFO]: 数据库断言实际结果:【10010258-20200410132322-29998068】---->>预期结果:【10010258-20200410132322-29998068】
+[2021-03-06 18:05:58,672][test_submitOffersOrder.py 59][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-06 19:44:35,656][test_OpenAccount.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 19:47:31,690][test_OpenAccount.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 19:47:31,690][bnhi_Reqx.py 26][INFO]: 重置节点列表：[]
+[2021-03-06 19:52:32,170][test_OpenAccount.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 19:52:32,171][bnhi_Reqx.py 26][INFO]: 重置节点列表：[]
+[2021-03-06 21:55:21,651][test_OpenAccount.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 21:55:58,017][test_OpenAccount.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 21:55:58,025][bnhi_Reqx.py 29][INFO]: 重置节点列表：[]
+[2021-03-06 21:58:06,456][test_OpenAccount.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 21:58:06,458][bnhi_Reqx.py 29][INFO]: 重置节点列表：[]
+[2021-03-06 22:05:12,608][test_OpenAccount.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 22:05:12,610][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306220512']
+[2021-03-06 22:09:28,766][test_OpenAccount.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 22:09:28,768][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306220928']
+[2021-03-06 22:10:12,298][test_OpenAccount.py 27][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 22:10:12,306][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306221012']
+[2021-03-06 22:10:12,438][test_OpenAccount.py 37][INFO]: 请求消息体: {"pubInfo": {"systemCode": "ASPTEST2", "msgVer": "1.0", "reqTime": "20210306221012"}, "openAcctInfo": {"userInfo": {"bindMobile": "13632580952", "userId": "101688", "email": "qiuhaiyang@139.com"}, "normalAcctPayType": 1, "contractInfo": {"contractId": "90066688"}, "contractAcctPayType": 1, "acctType": "10", "validTime": "", "customInfo": {"identityNumber": "110020219", "customName": "OCE"}, "invalidTime": "", "busiTypeList": "16", "creditWoffResume": 1, "acctName": ""}}
+[2021-03-06 22:15:54,786][test_OpenAccount.py 28][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 22:15:54,795][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306221554']
+[2021-03-06 22:17:46,789][test_OpenAccount.py 28][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 22:17:46,791][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306221746']
+[2021-03-06 22:17:46,906][test_OpenAccount.py 46][INFO]: 请求消息体: {"pubInfo": {"systemCode": "ASPTEST2", "msgVer": "1.0", "reqTime": "20210306221746"}, "openAcctInfo": {"userInfo": {"bindMobile": "13632580952", "userId": "101688", "email": "qiuhaiyang@139.com"}, "normalAcctPayType": 1, "contractInfo": {"contractId": "90066688"}, "contractAcctPayType": 1, "acctType": "10", "validTime": "", "customInfo": {"identityNumber": "110020219", "customName": "OCE"}, "invalidTime": "", "busiTypeList": "16", "creditWoffResume": 1, "acctName": ""}}
+[2021-03-06 22:32:02,397][test_OpenAccount.py 28][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 22:32:02,408][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306223202']
+[2021-03-06 22:32:02,523][test_OpenAccount.py 46][INFO]: 请求消息体: {"pubInfo": {"systemCode": "ASPTEST2", "msgVer": "1.0", "reqTime": "20210306223202"}, "openAcctInfo": {"userInfo": {"bindMobile": "13632580952", "userId": "101688", "email": "qiuhaiyang@139.com"}, "normalAcctPayType": 1, "contractInfo": {"contractId": "90066688"}, "contractAcctPayType": 1, "acctType": "10", "validTime": "", "customInfo": {"identityNumber": "110020219", "customName": "OCE"}, "invalidTime": "", "busiTypeList": "16", "creditWoffResume": 1, "acctName": ""}}
+[2021-03-06 22:33:11,713][test_OpenAccount.py 28][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 22:33:11,714][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306223311']
+[2021-03-06 22:33:12,675][test_OpenAccount.py 45][INFO]: 请求消息体: {"pubInfo": {"systemCode": "ASPTEST2", "msgVer": "1.0", "reqTime": "20210306223311"}, "openAcctInfo": {"userInfo": {"bindMobile": "13632580952", "userId": "101688", "email": "qiuhaiyang@139.com"}, "normalAcctPayType": 1, "contractInfo": {"contractId": "90066688"}, "contractAcctPayType": 1, "acctType": "10", "validTime": "", "customInfo": {"identityNumber": "110020219", "customName": "OCE"}, "invalidTime": "", "busiTypeList": "16", "creditWoffResume": 1, "acctName": ""}}
+[2021-03-06 22:35:06,268][test_OpenAccount.py 28][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 22:35:06,270][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306223506']
+[2021-03-06 22:35:07,272][test_OpenAccount.py 45][INFO]: 请求消息体: {"pubInfo": {"systemCode": "ASPTEST2", "msgVer": "1.0", "reqTime": "20210306223506"}, "openAcctInfo": {"userInfo": {"bindMobile": "13632580952", "userId": "101688", "email": "qiuhaiyang@139.com"}, "normalAcctPayType": 1, "contractInfo": {"contractId": "90066688"}, "contractAcctPayType": 1, "acctType": "10", "validTime": "", "customInfo": {"identityNumber": "110020219", "customName": "OCE"}, "invalidTime": "", "busiTypeList": "16", "creditWoffResume": 1, "acctName": ""}}
+[2021-03-06 22:42:05,974][test_OpenAccount.py 28][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 22:42:05,975][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306224205']
+[2021-03-06 22:42:45,122][test_OpenAccount.py 28][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 22:42:45,125][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306224245']
+[2021-03-06 22:42:46,145][test_OpenAccount.py 48][INFO]: 请求消息体: {"pubInfo": {"systemCode": "ASPTEST2", "msgVer": "1.0", "reqTime": "20210306224245"}, "openAcctInfo": {"userInfo": {"bindMobile": "13632580952", "userId": "101688", "email": "qiuhaiyang@139.com"}, "normalAcctPayType": 1, "contractInfo": {"contractId": "90066688"}, "contractAcctPayType": 1, "acctType": "10", "validTime": "", "customInfo": {"identityNumber": "110020219", "customName": "OCE"}, "invalidTime": "", "busiTypeList": "16", "creditWoffResume": 1, "acctName": ""}}
+[2021-03-06 22:46:52,983][test_OpenAccount.py 28][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 22:46:52,984][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306224652']
+[2021-03-06 22:46:54,009][test_OpenAccount.py 48][INFO]: 请求消息体: {"pubInfo": {"systemCode": "ASPTEST2", "msgVer": "1.0", "reqTime": "20210306224652"}, "openAcctInfo": {"userInfo": {"bindMobile": "13632580952", "userId": "101688", "email": "qiuhaiyang@139.com"}, "normalAcctPayType": 1, "contractInfo": {"contractId": "90066688"}, "contractAcctPayType": 1, "acctType": "10", "validTime": "", "customInfo": {"identityNumber": "110020219", "customName": "OCE"}, "invalidTime": "", "busiTypeList": "16", "creditWoffResume": 1, "acctName": ""}}
+[2021-03-06 23:03:12,460][test_OpenAccount.py 28][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 23:03:12,483][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306230312']
+[2021-03-06 23:08:25,859][test_OpenAccount.py 28][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 23:08:25,869][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306230825']
+[2021-03-06 23:08:26,496][test_OpenAccount.py 48][INFO]: 请求消息体: {"pubInfo": {"systemCode": "ASPTEST2", "msgVer": "1.0", "reqTime": "20210306230825"}, "openAcctInfo": {"userInfo": {"bindMobile": "13632580952", "userId": "101688", "email": "qiuhaiyang@139.com"}, "normalAcctPayType": 1, "contractInfo": {"contractId": "90066688"}, "contractAcctPayType": 1, "acctType": "10", "validTime": "", "customInfo": {"identityNumber": "110020219", "customName": "OCE"}, "invalidTime": "", "busiTypeList": "16", "creditWoffResume": 1, "acctName": ""}}
+[2021-03-06 23:11:44,742][test_OpenAccount.py 28][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 23:11:44,751][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306231144']
+[2021-03-06 23:11:45,364][test_OpenAccount.py 48][INFO]: 请求URL: http://10.12.8.200:58083/bacservice/OpenAccount
+[2021-03-06 23:46:09,753][test_OpenAccount.py 28][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 23:46:09,755][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306234609']
+[2021-03-06 23:46:10,555][test_OpenAccount.py 49][INFO]: 请求URL: http://10.1.5.150:5566/bacservice/OpenAccount
+[2021-03-06 23:48:35,599][test_OpenAccount.py 28][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 23:48:35,600][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306234835']
+[2021-03-06 23:48:36,268][test_OpenAccount.py 49][INFO]: 请求URL: http://10.1.5.150:5566/bacservice/OpenAccount
+[2021-03-06 23:54:01,795][test_OpenAccount.py 28][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 23:54:01,796][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306235401']
+[2021-03-06 23:54:02,394][test_OpenAccount.py 44][INFO]: 请求消息体: "{\"reqParam\": {\"pubInfo\":{\"systemCode\":\"ASPTEST2\",\"msgVer\":\"1.0\",\"reqTime\":\"20210306235401\"},\"openAcctInfo\":{\"userInfo\":{\"bindMobile\":\"13632580952\",\"userId\":\"101688\",\"email\":\"qiuhaiyang@139.com\"},\"normalAcctPayType\":1,\"contractInfo\":{\"contractId\":\"90066688\"},\"contractAcctPayType\":1,\"acctType\":\"10\",\"validTime\":\"\",\"customInfo\":{\"identityNumber\":\"110020219\",\"customName\":\"OCE\"},\"invalidTime\":\"\",\"busiTypeList\":\"16\",\"creditWoffResume\":1,\"acctName\":\"\"}},\"sign\": MC0CFQCXGHlxNzB+E3koTmH0WQa5Ge3Q0AIUG8hjaWUUYjGXKdcZ16mO4+qXbmY=}"
+[2021-03-06 23:54:02,404][test_OpenAccount.py 49][INFO]: 请求URL: http://10.1.5.150:5566/bacservice/OpenAccount
+[2021-03-06 23:55:49,799][test_OpenAccount.py 28][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-06 23:55:49,801][bnhi_Reqx.py 30][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210306235549']
+[2021-03-06 23:55:50,409][test_OpenAccount.py 44][INFO]: 请求消息体: "{\"reqParam\": {\"pubInfo\":{\"systemCode\":\"ASPTEST2\",\"msgVer\":\"1.0\",\"reqTime\":\"20210306235549\"},\"openAcctInfo\":{\"userInfo\":{\"bindMobile\":\"13632580952\",\"userId\":\"101688\",\"email\":\"qiuhaiyang@139.com\"},\"normalAcctPayType\":1,\"contractInfo\":{\"contractId\":\"90066688\"},\"contractAcctPayType\":1,\"acctType\":\"10\",\"validTime\":\"\",\"customInfo\":{\"identityNumber\":\"110020219\",\"customName\":\"OCE\"},\"invalidTime\":\"\",\"busiTypeList\":\"16\",\"creditWoffResume\":1,\"acctName\":\"\"}},\"sign\": \"MC4CFQCAn/+jL1cbpzNIX7W7DSAzNBTceAIVAIydbeN9ZgeDf820KipSGYUrJmSP\"}"
+[2021-03-06 23:55:50,428][test_OpenAccount.py 49][INFO]: 请求URL: http://10.1.5.150:5566/bacservice/OpenAccount

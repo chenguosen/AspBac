@@ -1,0 +1,4 @@
+[2021-03-02 19:17:16,162][test_serviceOrderQuerycopy.py 23][INFO]: *************** 开始执行用例 ***************
+[2021-03-02 19:17:16,162][test_serviceOrderQuerycopy.py 25][INFO]: host=10.12.3.134,port=3316,user=root,passwd=123456,db=flask_demo,charset=utf8
+[2021-03-02 19:17:16,174][test_serviceOrderQuerycopy.py 31][INFO]: {"code": 0, "data": [{"id": 1, "username": "测试test", "password": "123456", "role": 1, "sex": 1, "telephone": "13488888888", "address": "北京市海淀区"}, {"id": 2, "username": "测试test6", "password": "123456", "role": 1, "sex": 1, "telephone": "13488888899", "address": "北京市海淀区"}, {"id": 3, "username": "测试test444", "password": "123456", "role": 1, "sex": 1, "telephone": "13488888999", "address": "北京市海淀区"}, {"id": 4, "username": "测试test477", "password": "123456", "role": 1, "sex": 1, "telephone": "13488888979", "address": "北京市海淀区"}], "msg": "查询成功"}
+[2021-03-02 19:17:16,253][test_serviceOrderQuerycopy.py 35][INFO]: *************** 结束执行用例 ***************

@@ -1,0 +1,392 @@
+[2021-03-16 00:00:46,109][conftest.py 19][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 00:00:46,193][conftest.py 27][DEBUG]: redis查询结果为：b'{"acctId":310213358,"acctName":"\xe9\x99\x88\xe5\x9b\xbd\xe6\xa3\xae2","acctSource":"ASPTEST2","acctStatus":1,"acctType":"10","bindMobile":"15818640854","createTime":1615806130333,"identityNumber":"110020219","invalidTime":4102415999000,"userId":"900002","validTime":1615806129000}'
+[2021-03-16 00:00:46,196][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 00:00:46,197][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316000046']
+[2021-03-16 00:00:47,264][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316000046"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFFXI27/76XjlDRlyRYevFD8i5PpBAhQIz3uy3rB/HAxJEYhizxP/D2HJlw=="}
+[2021-03-16 00:02:00,997][conftest.py 19][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 00:02:01,113][conftest.py 27][DEBUG]: redis查询结果为：{"acctId":310213358,"acctName":"陈国森2","acctSource":"ASPTEST2","acctStatus":1,"acctType":"10","bindMobile":"15818640854","createTime":1615806130333,"identityNumber":"110020219","invalidTime":4102415999000,"userId":"900002","validTime":1615806129000}
+[2021-03-16 00:02:01,116][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 00:02:01,118][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316000201']
+[2021-03-16 00:02:01,998][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316000201"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFA95MNaZiZjnqTTPqYYZoKL0uacmAhQmZ9V9sXojQE/7i0ir5gHySF2wMA=="}
+[2021-03-16 00:04:43,618][conftest.py 19][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 00:04:43,734][conftest.py 28][DEBUG]: redis查询结果为：{"acctId":310213358,"acctName":"陈国森2","acctSource":"ASPTEST2","acctStatus":1,"acctType":"10","bindMobile":"15818640854","createTime":1615806130333,"identityNumber":"110020219","invalidTime":4102415999000,"userId":"900002","validTime":1615806129000}
+[2021-03-16 00:04:43,737][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 00:04:43,738][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316000443']
+[2021-03-16 00:04:44,593][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316000443"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFHulyGOXamJ2jZRNtwkURSEJedCRAhQMXctznMixaJnV3WD4jTSbVji+6w=="}
+[2021-03-16 00:12:28,038][conftest.py 19][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 00:12:28,130][conftest.py 28][DEBUG]: redis查询结果为：{"acctId":310213358,"acctName":"陈国森2","acctSource":"ASPTEST2","acctStatus":1,"acctType":"10","bindMobile":"15818640854","createTime":1615806130333,"identityNumber":"110020219","invalidTime":4102415999000,"userId":"900002","validTime":1615806129000}
+[2021-03-16 00:12:28,133][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 00:12:28,134][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316001228']
+[2021-03-16 00:12:28,936][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316001228"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MC0CFQCWlopkM5xOA6AAOGLDeP7pZE/hVwIUdDhSat7K4Da9d0ZpkrL8VqoxUt4="}
+[2021-03-16 00:20:14,885][conftest.py 19][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 00:20:15,022][conftest.py 29][DEBUG]: redis删除成功
+[2021-03-16 00:20:15,123][conftest.py 29][DEBUG]: redis删除成功
+[2021-03-16 00:22:06,180][conftest.py 19][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 00:22:06,181][conftest.py 29][DEBUG]: redis删除成功BAC_account_userId_900002
+[2021-03-16 00:22:06,181][conftest.py 29][DEBUG]: redis删除成功BAC_account_userId_900002
+[2021-03-16 00:22:06,182][conftest.py 29][DEBUG]: redis删除成功BAC_BASR_16_9000000000000200002
+[2021-03-16 00:22:06,182][conftest.py 29][DEBUG]: redis删除成功BAC_custom_idEntityNumber_110020219
+[2021-03-16 00:22:06,185][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 00:22:06,186][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316002206']
+[2021-03-16 00:22:07,129][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316002206"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFCEnGb3CBAzG3IZNQmWwB+Al4JWCAhQENfs9KG0iAZAiIMjPDTRAmxPEug=="}
+[2021-03-16 00:22:46,736][conftest.py 19][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 00:22:46,800][conftest.py 29][DEBUG]: redis删除成功BAC_account_userId_900002
+[2021-03-16 00:22:46,898][conftest.py 29][DEBUG]: redis删除成功BAC_account_userId_900002
+[2021-03-16 00:31:46,183][conftest.py 20][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 00:34:13,290][conftest.py 20][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 09:08:26,061][conftest.py 20][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 09:13:13,869][conftest.py 20][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 09:13:15,520][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 09:13:15,521][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316091315']
+[2021-03-16 09:13:16,357][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316091315"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFCOnBnl+Mql+gni3AdwUeudn8DetAhQPobCBYPbgVxhOpsD6lW2BEcUsEQ=="}
+[2021-03-16 09:13:44,873][conftest.py 20][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 09:13:46,425][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 09:13:46,426][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316091346']
+[2021-03-16 09:13:47,263][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316091346"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFE4Z0T0rSKTgeUIm81u/wtEOnxiOAhRYBugT/ltT4mQRIYiEJ8GQkm1slg=="}
+[2021-03-16 09:54:22,681][conftest.py 20][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 09:54:24,322][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 09:54:24,323][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316095424']
+[2021-03-16 09:54:25,163][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316095424"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFHzYoXoKt+law3o4Ngy0wNwHTOuOAhR0nuvxodhnN1wtrlc4a7C3GBwUwA=="}
+[2021-03-16 09:54:34,236][conftest.py 20][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 09:54:35,822][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 09:54:35,823][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316095435']
+[2021-03-16 09:54:36,663][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316095435"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFBnRNRj5I9fCVNWNPozIi56fSnswAhRiNIONWoP0CCRQm0S8u7ugUIPo6Q=="}
+[2021-03-16 10:32:14,242][conftest.py 20][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 10:32:15,927][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 10:32:15,928][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316103215']
+[2021-03-16 10:32:16,766][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316103215"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFE7ahzhp2M/iDYdEhCz3zscRD09XAhQKeJWV/PVIJyOYFs5sorNfr3CzcQ=="}
+[2021-03-16 11:37:04,934][conftest.py 19][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 11:37:06,768][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 11:37:06,769][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316113706']
+[2021-03-16 11:37:07,614][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316113706"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFC472iV/KyroK+x3rdIXJqzMrn9tAhRWkId18NX6qik9jLFgzYzJvmROqA=="}
+[2021-03-16 11:38:29,434][conftest.py 19][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 11:38:31,115][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 11:38:31,116][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316113831']
+[2021-03-16 11:38:31,992][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316113831"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFD5O+v7HWpbe5ct58u5jOKfXJ7agAhRenTXbeWXUN2bTSpjxDQMfMtSYAg=="}
+[2021-03-16 11:39:50,765][conftest.py 19][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 11:41:12,039][conftest.py 19][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 11:41:15,236][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 11:41:15,238][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316114115']
+[2021-03-16 11:41:16,105][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316114115"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFGqIGqcEyVjT3pb4Xbe8AxaPW4edAhQG4lFfAMJ9m75yxt7K2lpZvvlXuA=="}
+[2021-03-16 13:35:57,305][conftest.py 19][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 13:35:57,803][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 13:35:57,804][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316133557']
+[2021-03-16 13:35:58,935][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316133557"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFGk03OI4+b3fsKcBrwJ+QEe/0uOvAhQbefKnE0NXrA/EyC4w1n2wM5O/aA=="}
+[2021-03-16 13:37:00,319][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 13:37:00,321][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316133700']
+[2021-03-16 13:37:01,170][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316133700"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFBjupoY3vg4mpE0vEhLlfhD++6bOAhRbwDIlmH5EEtuVWHwZckFROBAT9A=="}
+[2021-03-16 13:44:36,922][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 13:44:36,923][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316134436']
+[2021-03-16 13:44:37,774][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316134436"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MC0CFEdyhuw20e8R1ayaLXjTkoObcET8AhUAjby726sbukeqCMj28oBEbFyoE6A="}
+[2021-03-16 13:45:36,275][conftest.py 19][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 13:45:36,847][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 13:45:36,848][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316134536']
+[2021-03-16 13:45:37,726][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316134536"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFERcFxsii++dFXWbLRSGh9JocNVzAhQY9SS6nfx59F8/V9iGhykoNnbyyA=="}
+[2021-03-16 13:49:30,708][conftest.py 19][DEBUG]: 数据库初始化文件D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 13:49:31,219][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 13:49:31,220][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316134931']
+[2021-03-16 13:49:32,120][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316134931"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFGK1WdY9rcdhe0kg05Sq1beRV/coAhRd63iMFYpzh5pLLspn7vR219Qyng=="}
+[2021-03-16 13:56:27,327][conftest.py 20][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 13:56:27,373][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 13:56:27,427][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 13:56:27,490][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 13:56:27,538][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 13:56:27,540][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 13:56:27,541][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316135627']
+[2021-03-16 13:56:28,416][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316135627"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFFv9bFzlKiSlRuwSQmjczCBV8pCCAhQHKH0kyK0XNkrfwW3tGwbwA0wpmw=="}
+[2021-03-16 14:03:34,931][conftest.py 20][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 14:03:34,984][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 14:03:35,057][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 14:03:35,143][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 14:03:35,194][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 14:03:35,197][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 14:03:35,199][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316140335']
+[2021-03-16 14:03:36,144][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316140335"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFHiRpUXhiRNVYi5CHsP1142rfmYDAhRkUih6AuIb/V7WyFX/k4Fb4cqphQ=="}
+[2021-03-16 14:03:37,465][Response_assert.py 18][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 14:03:37,495][Response_assert.py 18][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 14:03:37,524][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 14:03:37,552][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 14:03:38,113][Db_assert.py 19][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 14:03:38,611][Db_assert.py 19][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 14:03:39,214][Db_assert.py 19][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-16 14:03:39,214][test_OpenAccount.py 76][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-16 14:23:19,685][conftest.py 20][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 14:23:19,753][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 14:23:19,817][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 14:23:19,909][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 14:23:20,015][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 14:23:20,019][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 14:23:20,021][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316142320']
+[2021-03-16 14:23:21,075][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316142320"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFDnbhWQlurfZTBq99uslgHuNRozCAhRs/JhflK4wwtODCWATiGLiuE46Bg=="}
+[2021-03-16 14:23:21,859][Response_assert.py 18][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 14:23:21,892][Response_assert.py 18][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 14:23:21,921][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 14:23:21,959][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 14:23:22,253][Db_assert.py 19][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 14:23:22,394][Db_assert.py 19][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 14:23:22,764][Db_assert.py 19][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-16 14:23:22,764][test_OpenAccount.py 76][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-16 14:37:08,478][conftest.py 20][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 14:37:08,621][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 14:37:08,666][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 14:37:08,736][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 14:37:08,789][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 14:37:08,792][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 14:37:08,793][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316143708']
+[2021-03-16 14:37:09,672][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316143708"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFFYDVUjjwhobt43oWTO6Md1etOjVAhQteVjWpI/yORYbwwem1CgVieHXdA=="}
+[2021-03-16 14:37:10,465][Response_assert.py 18][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 14:37:10,497][Response_assert.py 18][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 14:37:10,525][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 14:37:10,557][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 14:38:28,755][conftest.py 20][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 14:38:28,804][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 14:38:28,849][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 14:38:28,919][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 14:38:28,968][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 14:38:28,971][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 14:38:28,972][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316143828']
+[2021-03-16 14:38:29,849][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316143828"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MC0CFHnnAFwWZmzK9GPoqV4ibgiErVVpAhUAh4HaJwsCtGYnH/QxgipDvTmuq9E="}
+[2021-03-16 14:38:30,638][Response_assert.py 18][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 14:38:30,671][Response_assert.py 18][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 14:38:30,704][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 14:38:30,737][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 14:42:35,113][conftest.py 20][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 14:42:35,238][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 14:42:35,284][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 14:42:35,362][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 14:42:35,414][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 14:42:35,416][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 14:42:35,417][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316144235']
+[2021-03-16 14:42:36,280][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316144235"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFHabSXvIWGfzujv+YQPf9ffCKh/SAhRiFi7QzHdZL9/SEcWp4nUIZMmmwg=="}
+[2021-03-16 14:42:37,061][Response_assert.py 18][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 14:42:37,093][Response_assert.py 18][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 14:42:37,120][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 14:42:37,152][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 14:42:37,437][Db_assert.py 20][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 14:42:37,756][Db_assert.py 20][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 14:42:38,008][Db_assert.py 20][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-16 14:42:38,009][test_OpenAccount.py 76][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-16 14:47:23,520][conftest.py 20][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 14:47:23,570][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 14:47:23,616][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 14:47:23,780][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 14:47:23,825][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 14:47:23,827][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 14:47:23,828][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316144723']
+[2021-03-16 14:47:24,699][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316144723"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFGOqYaWUsfHsHaKyy6W9BWYTe2c+AhQ8W2GvSB8H1RkQCtUXAhcYq0hJAQ=="}
+[2021-03-16 14:47:25,874][Response_assert.py 18][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 14:47:25,904][Response_assert.py 18][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 14:47:25,936][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 14:47:25,966][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 14:47:26,274][Db_assert.py 20][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 14:47:26,589][Db_assert.py 20][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 14:47:26,946][Db_assert.py 20][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-16 14:47:26,946][test_OpenAccount.py 76][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-16 14:49:26,450][conftest.py 20][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 14:49:26,497][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 14:49:26,543][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 14:49:26,610][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 14:49:26,658][conftest.py 27][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 14:49:26,661][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 14:49:26,662][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316144926']
+[2021-03-16 14:49:27,561][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316144926"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MC0CFQCLnTC7GoZEONa8Q8S1dEh08L1I9gIUe57mlbmrTxASMFyIVShJ2mfbd2M="}
+[2021-03-16 14:49:28,362][Response_assert.py 18][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 14:49:28,391][Response_assert.py 18][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 14:49:28,424][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 14:49:28,459][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 14:49:28,846][Db_assert.py 20][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 14:49:28,992][Db_assert.py 20][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 14:49:29,290][Db_assert.py 20][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-16 14:49:29,291][test_OpenAccount.py 76][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-16 15:02:01,367][conftest.py 19][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 15:02:01,436][conftest.py 26][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 15:02:01,483][conftest.py 26][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 15:02:01,556][conftest.py 26][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 15:02:01,612][conftest.py 26][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 15:02:01,615][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 15:02:01,616][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316150201']
+[2021-03-16 15:02:02,704][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316150201"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFCNX0166mFzp2iwnklGpBLchjTGsAhRF6rNBSkrjTE+nGj7i9UDedCOMng=="}
+[2021-03-16 15:02:03,716][Response_assert.py 18][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 15:02:03,746][Response_assert.py 18][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 15:02:03,780][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 15:02:03,817][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 15:02:04,119][Db_assert.py 20][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 15:02:04,365][Db_assert.py 20][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 15:02:04,495][Db_assert.py 20][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-16 15:02:04,496][test_OpenAccount.py 76][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-16 16:27:42,417][conftest.py 19][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 16:27:42,462][conftest.py 26][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 16:27:42,506][conftest.py 26][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 16:27:42,571][conftest.py 26][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 16:27:42,617][conftest.py 26][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 16:27:42,619][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 16:27:42,620][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316162742']
+[2021-03-16 16:27:43,466][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316162742"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MC0CFQCMr/zQaN5EC7x7Vtq7/DMEsiQMcwIUW3KZ1Yyuol2kj4grkTKdC1VvkwE="}
+[2021-03-16 16:27:44,603][Response_assert.py 18][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 16:27:44,630][Response_assert.py 18][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 16:27:44,660][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 16:27:44,687][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 16:27:45,022][Db_assert.py 20][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 16:27:45,343][Db_assert.py 20][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 16:27:45,579][Db_assert.py 20][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-16 16:27:45,580][test_OpenAccount.py 76][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-16 16:58:11,249][conftest.py 19][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 16:58:11,307][conftest.py 26][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 16:58:11,358][conftest.py 26][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 16:58:11,429][conftest.py 26][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 16:58:11,477][conftest.py 26][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 16:58:11,480][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 16:58:11,481][bnhi_Reqx.py 24][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316165811']
+[2021-03-16 16:58:12,383][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316165811"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFCrMZso64CYSyKRTo7NYmUdt3Rm/AhQ4GuFcMItxxD5p5h2OfB2V5S5uXA=="}
+[2021-03-16 16:58:13,519][Response_assert.py 18][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 16:58:13,546][Response_assert.py 18][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 16:58:13,573][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 16:58:13,604][Response_assert.py 18][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 16:58:13,903][Db_assert.py 20][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 16:58:14,276][Db_assert.py 20][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 16:58:14,633][Db_assert.py 20][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-16 16:58:14,634][test_OpenAccount.py 76][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-16 17:01:46,559][conftest.py 19][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 17:01:46,610][conftest.py 26][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 17:01:46,660][conftest.py 26][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 17:01:46,743][conftest.py 26][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 17:01:46,797][conftest.py 26][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 17:01:46,800][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 17:01:46,801][bnhi_Reqx.py 28][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316170146']
+[2021-03-16 17:01:47,744][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316170146"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MC0CFQCVocQwLBoTfErGdZtvyHkdIMFZiQIUF5bzrKv6p70Q2oP5dv1woK3Exws="}
+[2021-03-16 17:01:48,758][Response_assert.py 21][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 17:01:48,786][Response_assert.py 21][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 17:01:48,812][Response_assert.py 21][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 17:01:48,844][Response_assert.py 21][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 17:01:49,003][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 17:01:49,180][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 17:01:49,424][Db_assert.py 24][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-16 17:01:49,425][test_OpenAccount.py 76][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-16 17:35:21,585][conftest.py 20][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 17:35:21,663][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 17:35:21,714][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 17:35:21,789][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 17:35:21,843][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 17:35:21,846][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 17:35:21,847][bnhi_Reqx.py 28][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316173521']
+[2021-03-16 17:35:22,822][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316173521"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MC0CFFekQDT2L9ZHky1OPbw65c4/AaXqAhUAgYl+U5F8ENx7zh/RXXOQU07Uo/w="}
+[2021-03-16 17:35:23,716][Response_assert.py 21][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 17:35:23,747][Response_assert.py 21][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 17:35:23,779][Response_assert.py 21][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 17:35:23,811][Response_assert.py 21][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 17:35:24,164][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 17:35:24,654][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 17:35:24,869][Db_assert.py 24][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-16 17:35:24,869][test_OpenAccount.py 75][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-16 17:35:35,370][conftest.py 20][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 17:35:35,417][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 17:35:35,465][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 17:35:35,537][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 17:35:35,591][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 17:35:35,594][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 17:35:35,595][bnhi_Reqx.py 28][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316173535']
+[2021-03-16 17:35:36,553][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316173535"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFFP0Beuao+WOT1b4sjiGZO1SMVDYAhRuYBPfuhSFSmrKeEnQ1aBK9HJgyw=="}
+[2021-03-16 17:35:37,381][Response_assert.py 21][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 17:35:37,414][Response_assert.py 21][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 17:35:37,443][Response_assert.py 21][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 17:35:37,475][Response_assert.py 21][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 17:35:37,808][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 17:35:37,950][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 17:35:38,176][Db_assert.py 24][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-16 17:35:38,176][test_OpenAccount.py 75][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-16 17:35:46,090][conftest.py 20][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 17:35:46,194][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 17:35:46,259][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 17:35:46,341][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 17:35:46,402][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 17:35:46,406][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 17:35:46,408][bnhi_Reqx.py 28][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316173546']
+[2021-03-16 17:35:47,357][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316173546"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFBdoyau/KbXpIhHGxm1cFpoE2MqKAhQtnjfACeCPsSU2rkbdJhebmjOAmw=="}
+[2021-03-16 17:35:48,096][Response_assert.py 21][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 17:35:48,136][Response_assert.py 21][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 17:35:48,179][Response_assert.py 21][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 17:35:48,221][Response_assert.py 21][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 17:35:48,509][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 17:35:48,666][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 17:35:48,976][Db_assert.py 24][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-16 17:35:48,976][test_OpenAccount.py 75][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-16 17:41:54,168][conftest.py 20][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 17:41:54,220][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 17:41:54,271][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 17:41:54,342][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 17:41:54,396][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 17:41:54,399][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 17:41:54,400][bnhi_Reqx.py 28][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316174154']
+[2021-03-16 17:41:55,337][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316174154"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MC0CFHAsv9D46eiJxkkU+UAuv7fME9/UAhUAg0J7BYYObuOkiFg2vJbgdZh6AMg="}
+[2021-03-16 17:41:56,264][Response_assert.py 21][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 17:41:56,298][Response_assert.py 21][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 17:41:56,331][Response_assert.py 21][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 17:41:56,365][Response_assert.py 21][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 17:41:56,675][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 17:41:57,020][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 17:41:57,358][Db_assert.py 24][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-16 17:41:57,358][test_OpenAccount.py 75][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-16 17:48:52,987][conftest.py 20][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 17:48:53,043][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 17:48:53,097][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 17:48:53,174][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 17:48:53,229][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 17:48:53,233][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 17:48:53,235][bnhi_Reqx.py 28][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316174853']
+[2021-03-16 17:48:54,207][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316174853"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFDGGLHYfHEt8dz2h1ipFBhHRpr/wAhQmKd0rB7vkegdbYDhr17SqcCtZTw=="}
+[2021-03-16 17:48:55,069][Response_assert.py 21][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 17:48:55,102][Response_assert.py 21][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 17:48:55,138][Response_assert.py 21][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 17:48:55,174][Response_assert.py 21][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 17:48:55,564][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 17:48:55,861][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 17:48:56,173][Db_assert.py 24][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-16 17:48:56,174][test_OpenAccount.py 75][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-16 17:51:00,684][conftest.py 20][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 17:51:00,733][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 17:51:00,786][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 17:51:00,856][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 17:51:00,978][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 17:51:00,983][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 17:51:00,984][bnhi_Reqx.py 28][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316175100']
+[2021-03-16 17:51:01,965][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316175100"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFCy8rsuAXim9OZwXBt/DohhBL6Y6AhQzhO6Ob6ZtS0CuZ+Z1q24S04WKNw=="}
+[2021-03-16 17:51:02,711][Response_assert.py 21][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 17:51:02,744][Response_assert.py 21][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 17:51:02,775][Response_assert.py 21][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 17:51:02,807][Response_assert.py 21][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 17:51:03,129][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 17:51:03,439][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 17:51:03,818][Db_assert.py 24][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-16 17:51:03,818][test_OpenAccount.py 75][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-16 18:36:27,769][conftest.py 20][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 18:36:27,843][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 18:36:27,904][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 18:36:27,976][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 18:36:28,026][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 18:36:28,030][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 18:36:28,031][bnhi_Reqx.py 28][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316183628']
+[2021-03-16 18:36:28,899][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316183628"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MCwCFFIKEHGgFJCJqr6vlKQ7uzMA23MoAhQR+ANr9BT0AlwrOFdZ/2x3lzvUqA=="}
+[2021-03-16 18:36:29,805][Response_assert.py 21][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 18:36:29,844][Response_assert.py 21][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 18:36:29,882][Response_assert.py 21][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 18:36:29,911][Response_assert.py 21][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 18:36:30,307][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 18:36:30,600][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 18:36:30,804][Db_assert.py 24][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-16 18:36:30,804][test_OpenAccount.py 75][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-16 18:44:38,981][conftest.py 20][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-16 18:44:39,030][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_account_userId_900002
+[2021-03-16 18:44:39,191][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_user_userId_900002
+[2021-03-16 18:44:39,259][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_BASR_16_9000000000000200002
+[2021-03-16 18:44:39,307][conftest.py 28][DEBUG]: 执行redis初始化数据BAC_custom_idEntityNumber_110020219
+[2021-03-16 18:44:39,310][test_OpenAccount.py 37][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-16 18:44:39,311][Bac_Reqx.py 28][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210316184439']
+[2021-03-16 18:44:40,178][test_OpenAccount.py 53][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210316184439"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640854","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"110020219","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MC0CFQCPwrF6dFjzATY7sQMGMZFc3T4i/AIUTqvNb7OVsSkFXcKaUJ14lrA3Oao="}
+[2021-03-16 18:44:40,883][Response_assert.py 22][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 18:44:40,912][Response_assert.py 22][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-16 18:44:40,939][Response_assert.py 22][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-16 18:44:40,970][Response_assert.py 22][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-16 18:44:41,296][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 18:44:41,666][Db_assert.py 24][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-16 18:44:41,978][Db_assert.py 24][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-16 18:44:41,979][test_OpenAccount.py 75][INFO]: ***********************  结束执行用例 *********************** 

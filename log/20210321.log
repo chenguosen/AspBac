@@ -1,0 +1,28 @@
+[2021-03-21 09:52:01,272][conftest.py 21][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-21 09:52:02,789][test_OpenAccount.py 31][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-21 09:52:02,806][Bac_Reqx.py 26][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210321095202']
+[2021-03-21 09:52:04,015][test_OpenAccount.py 47][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210321095202"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640852","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"100000002","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MC0CFQCKC9LDR036tIOERyqaQoobD+u80wIUOJaby2Hunms1yxslVMBdhktmYdo="}
+[2021-03-21 09:52:05,451][Result_assert.py 26][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-21 09:52:05,480][Result_assert.py 26][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-21 09:52:05,505][Result_assert.py 26][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-21 09:52:05,525][Result_assert.py 26][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-21 09:52:06,258][Result_assert.py 42][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-21 09:52:06,964][Result_assert.py 42][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-21 09:52:07,608][Result_assert.py 42][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-21 09:52:08,604][Result_assert.py 66][INFO]: 实际结果:【{"customid":110214061,"customname":"oce","customtype":"10","identitynumber":"100000002"}】---->>预期结果:【{"customid":110214061,"customname":"oce","customtype":"10","identitynumber":"100000002"}】
+[2021-03-21 09:52:09,920][Result_assert.py 66][INFO]: 实际结果:【{"acctstatus":1,"createtime":1616256000000,"customid":110214061,"inneruserid":210214062,"useremail":"qiuhaiyang@139.com","userid":"900002","usermobile":"15818640852","username":"oce","usersource":"asptest2","usertype":"10"}】---->>预期结果:【{"acctstatus":1,"createtime":1616256000000,"customid":110214061,"inneruserid":210214062,"useremail":"qiuhaiyang@139.com","userid":"900002","usermobile":"15818640852","username":"oce","usersource":"asptest2","usertype":"10"}】
+[2021-03-21 09:52:09,921][test_OpenAccount.py 75][INFO]: ***********************  结束执行用例 *********************** 
+[2021-03-21 09:54:30,637][conftest.py 21][DEBUG]: 执行数据库初始化数据D:\app\AspBac\testdata\init_OpenAccount.sql
+[2021-03-21 09:54:32,130][test_OpenAccount.py 31][INFO]: ***********************  开始执行用例 *********************** 
+[2021-03-21 09:54:32,133][Bac_Reqx.py 26][INFO]: 重置节点列表：['$.pubInfo.reqTime=20210321095432']
+[2021-03-21 09:54:32,808][test_OpenAccount.py 47][INFO]: 请求消息体: {"reqParam": {"pubInfo":{"systemCode":"ASPTEST2","msgVer":"1.0","reqTime":"20210321095432"},"openAcctInfo":{"userInfo":{"bindMobile":"15818640852","userId":"900002","email":"qiuhaiyang@139.com"},"normalAcctPayType":1,"contractInfo":{"contractId":"9000000000000200002"},"contractAcctPayType":1,"acctType":"10","validTime":"","customInfo":{"identityNumber":"100000002","customName":"OCE"},"invalidTime":"","busiTypeList":"16","creditWoffResume":1,"acctName":"陈国森2"}},"sign": "MC0CFQCJrsGncM8iw8bc7+SuMQSKRIB0VgIUX322MoIL/Zvd13Zfz3yOVhU5zck="}
+[2021-03-21 09:54:33,923][Result_assert.py 26][INFO]: $.message的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-21 09:54:33,948][Result_assert.py 26][INFO]: $.status的实际结果:【200】---->>预期结果:【200】
+[2021-03-21 09:54:33,974][Result_assert.py 26][INFO]: $.data.rspParam.pubInfo.returnCode的实际结果:【0】---->>预期结果:【0】
+[2021-03-21 09:54:33,994][Result_assert.py 26][INFO]: $.data.rspParam.pubInfo.returnMsg的实际结果:【成功】---->>预期结果:【成功】
+[2021-03-21 09:54:34,613][Result_assert.py 42][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-21 09:54:35,305][Result_assert.py 42][INFO]: 数据库断言实际结果:【1】---->>预期结果:【1】
+[2021-03-21 09:54:36,022][Result_assert.py 42][INFO]: 数据库断言实际结果:【4】---->>预期结果:【4】
+[2021-03-21 09:54:37,253][Result_assert.py 66][INFO]: 实际结果:【{"customid":110214065,"customname":"oce","customtype":"10","identitynumber":"100000002"}】---->>预期结果:【{"customid":110214065,"customname":"oce","customtype":"10","identitynumber":"100000002"}】
+[2021-03-21 09:54:38,670][Result_assert.py 66][INFO]: 实际结果:【{"acctstatus":1,"createtime":1616256000000,"customid":110214065,"inneruserid":210214066,"useremail":"qiuhaiyang@139.com","userid":"900002","usermobile":"15818640852","username":"oce","usersource":"asptest2","usertype":"10"}】---->>预期结果:【{"acctstatus":1,"createtime":1616256000000,"customid":110214065,"inneruserid":210214066,"useremail":"qiuhaiyang@139.com","userid":"900002","usermobile":"15818640852","username":"oce","usersource":"asptest2","usertype":"10"}】
+[2021-03-21 09:54:38,672][test_OpenAccount.py 75][INFO]: ***********************  结束执行用例 *********************** 
