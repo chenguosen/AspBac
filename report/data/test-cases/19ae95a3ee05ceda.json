@@ -1,0 +1,288 @@
+{
+  "uid" : "19ae95a3ee05ceda",
+  "name" : "VerID:WAP1.0.0.1|ReqID:13456.0|Author:chenguosen|CaseTitle:05.用户、业务线、合同都存在_创建失败",
+  "fullName" : "testcase.test_OpenAccount.Test_OpenAccount#test_normal",
+  "historyId" : "037aa20e6b36d31a9efe17bcd7f8de15",
+  "time" : {
+    "start" : 1618021493306,
+    "stop" : 1618021494052,
+    "duration" : 746
+  },
+  "description" : "提供账户中心的账户开户，并根据参数提供的产品线和合同编码，自动创建对应账本科目、“产品线+合同编码”与账本科目对应关系、账户账本等功能。开户成功后返回账户ID给调用方。",
+  "descriptionHtml" : "<p>提供账户中心的账户开户，并根据参数提供的产品线和合同编码，自动创建对应账本科目、“产品线+合同编码”与账本科目对应关系、账户账本等功能。开户成功后返回账户ID给调用方。</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "OpenAccount_initdate",
+    "time" : {
+      "start" : 1618021474273,
+      "stop" : 1618021477462,
+      "duration" : 3189
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8a17e194e1766bde",
+      "name" : "初始化数据库数据",
+      "source" : "8a17e194e1766bde.attach",
+      "type" : "text/plain",
+      "size" : 43
+    }, {
+      "uid" : "4afb33df6e7f2af3",
+      "name" : "初始化删除redis数据",
+      "source" : "4afb33df6e7f2af3.attach",
+      "type" : "text/plain",
+      "size" : 645
+    }, {
+      "uid" : "8405ac308ac137d8",
+      "name" : "初始化插入redis数据",
+      "source" : "8405ac308ac137d8.attach",
+      "type" : "text/plain",
+      "size" : 671
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "提供账户中心的账户开户，并根据参数提供的产品线和合同编码，自动创建对应账本科目、“产品线+合同编码”与账本科目对应关系、账户账本等功能。开户成功后返回账户ID给调用方。",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试步骤1：准备reqParam信息内容",
+      "time" : {
+        "start" : 1618021493307,
+        "stop" : 1618021493378,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ae8909288866d20a",
+        "name" : "准备reqParam信息内容",
+        "source" : "ae8909288866d20a.attach",
+        "type" : "text/plain",
+        "size" : 485
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "测试步骤2：准备测试用例请求报文",
+      "time" : {
+        "start" : 1618021493378,
+        "stop" : 1618021493496,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d536d3f2b1079236",
+        "name" : "准备测试用例请求报文",
+        "source" : "d536d3f2b1079236.attach",
+        "type" : "text/plain",
+        "size" : 546
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "测试步骤3：向服务器发送请求并获取响应消息",
+      "time" : {
+        "start" : 1618021493496,
+        "stop" : 1618021493955,
+        "duration" : 459
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ecbd5d94f5eaa314",
+        "name" : "请求URL地址",
+        "source" : "ecbd5d94f5eaa314.attach",
+        "type" : "text/plain",
+        "size" : 45
+      }, {
+        "uid" : "6ec529b0799ca53c",
+        "name" : "响应码",
+        "source" : "6ec529b0799ca53c.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "e9138e2d885523db",
+        "name" : "响应消息体",
+        "source" : "e9138e2d885523db.attach",
+        "type" : "text/plain",
+        "size" : 294
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "测试步骤4：响应消息内容断言",
+      "time" : {
+        "start" : 1618021493955,
+        "stop" : 1618021494051,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f6906601fcb7274",
+        "name" : "4a055b56-4518-4539-b2e0-6dafd1261877-attachment.attach",
+        "source" : "f6906601fcb7274.attach",
+        "type" : "text/plain",
+        "size" : 68
+      }, {
+        "uid" : "46aafb462c2ce335",
+        "name" : "e780a67f-755b-4fcb-be6f-719d0ad7f6df-attachment.attach",
+        "source" : "46aafb462c2ce335.attach",
+        "type" : "text/plain",
+        "size" : 61
+      }, {
+        "uid" : "90ec054fe292953c",
+        "name" : "506ffb33-6c98-4704-b976-1bd494a2cc89-attachment.attach",
+        "source" : "90ec054fe292953c.attach",
+        "type" : "text/plain",
+        "size" : 93
+      }, {
+        "uid" : "62cb5d65bba38161",
+        "name" : "84f5984f-ac0e-4cf3-a2e9-c225e1bf793b-attachment.attach",
+        "source" : "62cb5d65bba38161.attach",
+        "type" : "text/plain",
+        "size" : 278
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "测试步骤5：数据库断言",
+      "time" : {
+        "start" : 1618021494051,
+        "stop" : 1618021494051,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "测试步骤6：redis库断言",
+      "time" : {
+        "start" : 1618021494051,
+        "stop" : 1618021494051,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7a0da2032dc72b03",
+      "name" : "log",
+      "source" : "7a0da2032dc72b03.txt",
+      "type" : "text/plain",
+      "size" : 1530
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "BDC项目-账户开户请求接口正常流功能测试"
+  }, {
+    "name" : "feature",
+    "value" : "BDC项目-账户开户请求接口"
+  }, {
+    "name" : "tag",
+    "value" : "testchenguosen33"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_OpenAccount"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_OpenAccount"
+  }, {
+    "name" : "host",
+    "value" : "chenguosen"
+  }, {
+    "name" : "thread",
+    "value" : "7264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_OpenAccount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Req_ID",
+    "value" : "13456.0"
+  }, {
+    "name" : "Resp_assert",
+    "value" : "'$.message=成功|$.status=200|$.data.rspParam.pubInfo.returnCode=710088|$.data.rspParam.pubInfo.returnMsg=账户及账本科目已开通，不能重复开通相同账本科目，建议更换合同编码。'"
+  }, {
+    "name" : "author",
+    "value" : "'chenguosen'"
+  }, {
+    "name" : "case",
+    "value" : "'05.用户、业务线、合同都存在_创建失败'"
+  }, {
+    "name" : "db_assert",
+    "value" : "''"
+  }, {
+    "name" : "header",
+    "value" : "'{\"Content-Type\": \"application/json\",'Authorization': 'auth'}'"
+  }, {
+    "name" : "redis_assert",
+    "value" : "''"
+  }, {
+    "name" : "req_parameters",
+    "value" : "'$.openAcctInfo.userInfo.bindMobile=15818640854|$.openAcctInfo.userInfo.userId=900004|$.openAcctInfo.contractInfo.contractId=9000000000000200004|$.openAcctInfo.acctName=陈国森4|$.openAcctInfo.customInfo.identityNumber=100000004|$.openAcctInfo.busiTypeList=13'"
+  }, {
+    "name" : "version",
+    "value" : "'WAP1.0.0.1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "testchenguosen33" ]
+  },
+  "source" : "19ae95a3ee05ceda.json",
+  "parameterValues" : [ "13456.0", "'$.message=成功|$.status=200|$.data.rspParam.pubInfo.returnCode=710088|$.data.rspParam.pubInfo.returnMsg=账户及账本科目已开通，不能重复开通相同账本科目，建议更换合同编码。'", "'chenguosen'", "'05.用户、业务线、合同都存在_创建失败'", "''", "'{\"Content-Type\": \"application/json\",'Authorization': 'auth'}'", "''", "'$.openAcctInfo.userInfo.bindMobile=15818640854|$.openAcctInfo.userInfo.userId=900004|$.openAcctInfo.contractInfo.contractId=9000000000000200004|$.openAcctInfo.acctName=陈国森4|$.openAcctInfo.customInfo.identityNumber=100000004|$.openAcctInfo.busiTypeList=13'", "'WAP1.0.0.1'" ]
+}
